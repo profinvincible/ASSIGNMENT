@@ -1,0 +1,45 @@
+@use "../color" as *;
+
+
+
+
+@mixin signin {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+    background-color: $color;
+    line-height: 12px;
+    letter-spacing: 0%;
+    color: $color2;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+
+ @mixin learnButton {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: $color;
+
+    line-height: 12px;
+    letter-spacing: 0%;
+    color: $color2;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.learnButton{
+    @include learnButton;
+}
+
+
+

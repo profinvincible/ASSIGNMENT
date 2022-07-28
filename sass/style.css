@@ -1,0 +1,7 @@
+@use "./reset" as *;
+@use "./Component/buttons" as*;
+@use "./Component/navbar" as *;
+@use "./fonts" as *;
+@use "./color" as *;
+@use "./Component/footer" as*;
+/*# sourceMappingURL=style.css.map */

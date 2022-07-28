@@ -1,0 +1,11 @@
+
+@use "./navbar" as *;
+
+
+.mainHero {
+    margin-top: 20px;
+}
+
+.navlink{
+   @include navlinks;
+}
